@@ -1,0 +1,7 @@
+chep@MEGABOOKS1:~/new_repo$ ssh -T git@github.com
+git@github.com: Permission denied (publickey).
+chep@MEGABOOKS1:~/new_repo$ cd
+chep@MEGABOOKS1:~$ ssh -T git@github.com
+git@github.com: Permission denied (publickey).
+chep@MEGABOOKS1:~$ cat ~/.ssh/id_ed25519.pub
+ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIOqFCljng1839/A4CumeekHp3H9ExyRYso7YYUt34yOD ivanceperegin@gmail.com
